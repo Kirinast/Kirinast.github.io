@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <link rel= "stylesheet" href = "styles1str.css" > 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+</head>
+<div class = "header">    
+    <div class="user">
+    <a href="file:///C:/Users/PC/Desktop/бб/1str_2.html">
+<img class = "user_img" src = "user.png">
+</a>
+</div>
+<div class="logo">
+<img class = "icon" src = "icon.png" >
+</div>
+<div class="menu">
+    <a href="#form_n">направления</a>
+    <a href="#teacher">преподаватели</a>
+    <a href="#prichina">почему мы?</a>
+    <a href="#footer">контакты</a>
+    </div>
+</div>
+<body>
+<div ><img class="square" src="44.png"></div>
+
+
+    <div class = "directions_form"><p class="directions" id="form_n">НАПРАВЛЕНИЯ</p></div>
+    <div class="form_n" >
+
+        <p>
+           <br><br> Юные познаватели!  (для детей от 3 до 7 лет) 
+    </p>
+        <p>
+            Подрастающие исследователи! (для школьников с 7 до 10 лет)
+        </p>
+        <p>
+          Квадракоптеры для школьников! (для школьников с 11 до 15 лет)
+        </p>
+        <p>
+          Покоряем небо! (для подростков с 16 до 18 лет)
+        </p>                                            
+        </div>
+        
+
+<div class = "teacher_form"><p class="teacher" id = "teacher">НАШИ ПРЕПОДАВАТЕЛИ:</p></div>
+          <div class="slider">
+            <div class="slide">
+              <img src="3.jpg" alt="Имя Фамилия">
+              <div class="caption">Лорен Фауст</div>
+            </div>
+            <div class="slide">
+              <img src="2.jpg" alt="Имя Фамилия">
+              <div class="caption">Джон Крамер</div>
+            </div>
+            <div class="slide">
+                <img src="6.jpg" alt="Имя Фамилия">
+                <div class="caption">Пак Чимин</div>
+              </div>
+              <div class="slide">
+                <img src="7.jpg" alt="Имя Фамилия">
+                <div class="caption">Со Чанбин</div>
+              </div>
+              <div class="slide">
+                <img src="8.jpg" alt="Имя Фамилия">
+                <div class="caption">Сяо Чжань</div>
+              </div>
+              <div class="slide">
+                <img src="9.jpg" alt="Имя Фамилия">
+                <div class="caption">Анна Марченко</div>
+              </div>
+              </div>
+              </div>
+          </div>
+
+
+
+         <div class="prchina" id="prichina">
+       <div class = "us_form"><p class="us">ПОЧЕМУ МЫ?</p></div>
+                <img src="10.png" class="us_img">
+          </div>
+              <!-- <div class="buttons">
+            <button onclick="moveSlide(-1)">Назад</button>
+            <button onclick="moveSlide(1)">Вперёд</button>
+
+          </div>  -->
+
+          
+          
+          <script rel="script" src="script111.js"></script>
+
+          <script src="text/javascript"></script>
+          <script type="text/javascript">
+              ymaps.ready(function () {
+                var myMap = new ymaps.Map('map', {
+                  center: [53.719708, 91.467298],
+                  zoom: 15
+                });
+          
+                var myPlacemark1 = new ymaps.Placemark([53.719708, 91.467298], {
+                  balloonContent: '<b>Пушкина 30</b><br><img src="1.jpg" width="200" height="150">'
+                }, {
+                  preset: 'islands#redIcon'
+                });
+                myMap.geoObjects.add(myPlacemark1);
+        });
+    </script>
+</body>
+<div class="footer" id = "footer">
+  <div class="contacts">г.Абакан, ул. Пушкина, д. 30<br>+7(999)999-99-99<br>kvantoriumandit@mail.ru</div>
+  <div class="divider"></div>
+  <div class="map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3d2afb804146e3997f5e8b08e305548f8cddb80f6be7a36bb064e08d3f31f785&amp;width=100%25&amp;height=240&amp;lang=ru_RU&amp;scroll=true" type="text/javascript"></script></script>
+  </div>
+</div>
+</html>
