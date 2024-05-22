@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: 'VollkornSC';
+    src: url('VollkornSC-Regular.woff');
+  }
+
+
+body {
+    background-color: #470A78;
+}
+.registration-form_2 {
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ececec;
+    border-radius: 30px;
+    background-color: #ececec;
+    width: 600px;
+}
+form {
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ececec;
+    border-radius: 30px;
+    background-color: #ececec;
+    width: 600px;
+}
+.registration-form {
+    background-color: #ececec;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0 30px;
+    border: 3px solid #470A78;
+    font-family:  'VollkornSC';
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #470A78;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 248px 10px;
+}
+
+button:hover {
+    background-color: #350b58;
+}
+.border_form {
+    border: 3px solid #470A78;
+    width: 450px;
+    margin: 0 auto 0;
+}
+.enter {
+    background-color: #CFA026;
+    border-radius: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'VollkornSC';
+    color: #350b58;
+    margin: 0 0 0 30px;
+}
+ .border_bottom {
+    border: 3px solid #350b58;
+    border-bottom: none;
+    width: 450px;
+    margin: 0 auto;
+} 
+.loginForm {
+    display: flex;
+}
+.user_p_Form {
+    border: 3px solid #470A78;
+}
+
+h1 {
+    color: #350b58;
+    font-family:  'VollkornSC';
+    margin: 0 100px;
+    font-size: 24px;
+}
+.h2 {
+    color: #350b58;
+    font-family:  'VollkornSC';
+    margin: 0 150px;
+    font-size: 20px;
+}
+P {
+    color: #350b58;
+    font-family:  'VollkornSC';
+    margin: 0 30px;
+    font-size: 12px;
+}
+.user_img {
+    height: 135px;
+    width: 125px;
+}
+.square {
+    width: 25px; /* ширина квадрата 1/4 экрана */
+    height: 25px; /* высота квадрата 1/4 экрана */
+  
+    border: 2px solid #CFA026;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fall 5s linear infinite; /* анимация падения */
+  }
+  @keyframes fall {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 80%; /* падение до нижней границы экрана */
+    }
+  }
