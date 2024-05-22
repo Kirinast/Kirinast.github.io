@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <link rel= "stylesheet" href = "st_form.css" > 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+</head>
+<body>
+    <form id="loginForm" onsubmit="return validateLogin()">
+        <div class="enter"><h2>Войти</h2></div>
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="Логин" name="username" required><br><br>
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="пароль" name="password" required><br><br>
+        <button type="submit">Войти</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script rel="script" src="sc_vhod.js"></script>
+</body>
+
+</html>
